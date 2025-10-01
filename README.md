@@ -125,7 +125,7 @@ Returns the full task info + per-file status.
 └────────────┘      │  +middleware│     │                │
                     └─────────────┘     └────────────────┘
                            │                       │             
-                    RequestID, logging        TaskService API
+                    RequestID, logging        TaskService
                                                    │                      
                                        (Snapshots + WAL) (Optional)
                                                │
