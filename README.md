@@ -48,7 +48,7 @@ Config is located in `config/app.env`. All fields are optional; defaults are sho
 | Variable                         | Description                                        | Default               |
 |----------------------------------|----------------------------------------------------|-----------------------|
 | `SERVER_ADDR`                    | Server address                                     | `:8081`               |
-| `GIN_MODE`                       | Gin mode (`release`, `debug`, `test`)              | `debug`               |
+| `GIN_MODE`                       | Gin mode (`release`, `debug`)                      | `debug`               |
 | `FILES_DIR`                      | Directory for downloads                            | `./data/server/files` |
 | `SEC_DIR`                        | Directory for snapshots and WAL                    | `./data/server`       |
 | `USER_AGENT`                     | HTTP User-Agent                                    | Mozilla-like          |
