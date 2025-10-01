@@ -1,0 +1,6 @@
+.todo
+.tmp.go
+.tmp
+data
+*.log
+playground
