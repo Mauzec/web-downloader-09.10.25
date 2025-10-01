@@ -65,8 +65,8 @@ Config is located in `config/app.env`. All fields are optional; defaults are sho
 
 | Mode      | Persistence model                                         | About                                                        |
 |-----------|-----------------------------------------------------------|--------------------------------------------------------------|
-| `memory`  | All live in RAM, durability via `snap.json` + `wal.log` | Custom file structure, easy to inspect/debug.                |
-| `bbolt`   | All live in `tasks.db`                                  | No snapshots/WAL, CRUD-friendly. Recommended for most cases. |
+| `memory`  | All live in RAM, durability via `snap.json` + `wal.log`   | Custom file structure, easy to inspect/debug.                |
+| `bbolt`   | All live in external database `tasks.db`                  | No snapshots/WAL, CRUD-friendly. Recommended for most cases. |
 
 Note: there is no migrate tool between modes.
 Note: in `memory` mode:
